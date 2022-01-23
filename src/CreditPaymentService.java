@@ -3,7 +3,7 @@ public class CreditPaymentService {
 
 
          double x =  (irate / credterm) / 100;
-         double z = x + 1;
+         double z = x + 1;git c
          double i = Math.pow(z,credterm);
          double payment = (x * i) / (i - 1) * (amount);
 
